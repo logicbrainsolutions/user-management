@@ -1,3 +1,21 @@
+
+
+-> The Api provided in the test did not support CORS, so I used another public Api available online, 
+I used react redux for state management(Alternatively I could use react hooks as well).
+I used react-router-dom for front-end routing.
+
+In order to run the project after downloading run following commands:
+
+npm install
+npm start
+
+In order to run tests:
+npm run test
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
