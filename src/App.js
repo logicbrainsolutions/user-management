@@ -25,26 +25,16 @@ class App extends Component {
           <Route path="/error" component={MyError} />
           <Route path="/" exact component={Users} />
           <Route path="/add-user" component={AddUser} />
-          <Route path="/item-details/:id" component={User}/> 
+          <Route path="/user-details/:id" component={User}/> 
           <Route component={MyError} />
         </Switch>
 
 
-        {/* <button onClick={() => this.switchNameHandler('NEW NAME')}>Switch Name</button>
-
-        <button onClick={this.switchNameHandler.bind(this, 'Uzair')}>Switch Name</button>
-        <Person name={this.state.persons[0].name} changed={this.nameChangeHandler}
-          age={this.state.persons[0].age} />
-        <Person name={this.state.persons[1].name}
-          age={this.state.persons[1].age} />
-        <Person name={this.state.persons[2].name}
-          age={this.state.persons[2].age}
-          click={this.switchNameHandler} /> */}
+        
 
       </div>
     );
-    // return React.createElement('div', {className: 'App'},
-    // React.createElement('h1', null, 'Just test dynamic element!'))
+    
   }
 }
 

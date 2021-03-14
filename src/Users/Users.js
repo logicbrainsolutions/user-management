@@ -53,7 +53,7 @@ class Users extends Component {
                     <td>{first_name}</td>
                     <td>{email}</td>
                     <td><img src={avatar} alt="File not found"></img></td>
-                    <td><Link to={{ pathname: '/item-details/' + id }}>
+                    <td><Link to={{ pathname: '/user-details/' + id }}>
                         Details
                     </Link>
                     </td>
